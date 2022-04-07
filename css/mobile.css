@@ -90,7 +90,6 @@
         flex-direction: column;
         align-items: flex-end;
         padding-top: 80px;
-        background-color: #F8FBFF;
     }
     #title h1{
         font-family: 'Julius Sans One', sans-serif;
@@ -125,7 +124,6 @@
     #main-img{
         width: 370px;
         height: 370px;
-        z-index: -50;
         position: relative;
         right: 100px;
         top: -100px;
@@ -189,6 +187,7 @@
     #about{
         margin: 0 auto;
         width: 100%;
+        background-color: #F8FBFF;
     }
     .bar-1{
         width: 150px;
