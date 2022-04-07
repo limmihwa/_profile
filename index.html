@@ -7,10 +7,11 @@
     <title>임미화포트폴리오</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat&family=Montserrat+Subrayada&family=Noto+Sans+KR:wght@300;400;500&family=Tourney&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="./pc.css">
+    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 768px">
+    <link rel="stylesheet" href="./css/mobile.css"  media="screen and (max-width: 767px)">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/do_type.js"></script>
     <script src="./js/sub.js"></script>
 </head>
@@ -33,6 +34,10 @@
             </ul>
           </nav>
         </div>
+        <button id="gnb-toggle-btn" class="mobile-only">
+          <img src="./img/toggle.png" alt="main-menu">
+      </button>
+  
       </header>
 
     <section id="title">
@@ -48,7 +53,7 @@
         <h3>keep develop</h3>
         <p>언제나  성실하게 노력하며,
             계속하여 성장해나가는 <br>
-            웹 퍼블리셔      ‘임미화’</p>
+            웹 퍼블리셔     <span>‘임미화’</span> </p>
         <img id="main-img" src="./img/일러스트.svg" alt="일러스트">
     </section>
     <div id="ani">
