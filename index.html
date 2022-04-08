@@ -7,6 +7,7 @@
     <title>MIHWA's</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="./favicon.png"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat+Subrayada&family=Montserrat:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&family=Tourney&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 768px">
     <link rel="stylesheet" href="./css/mobile.css"  media="screen and (max-width: 767px)">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    <link
@@ -15,6 +16,7 @@
   />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/do_type.js"></script>
     <script src="./js/sub.js"></script>
     <meta property="og:image" content="./title.jpg">
@@ -154,7 +156,9 @@
     <section id="work">
       <h1>WORK</h1>
       <div id="work-list" class="work-list">
-        <div id="work-1">
+        <div id="work-1" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
         <div class="work-img1">
           <h3>에이롭사이트 리뉴얼</h3>
   <!-- Swiper -->
@@ -213,7 +217,9 @@
 
           </div>
       </div>
-      <div id="work-2" class="work-list">
+      <div id="work-2" class="work-list" data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <div class="work-img2">
           <h3>에이롭사이트 리뉴얼</h3>
   <!-- Swiper -->
@@ -273,7 +279,9 @@
           </div>
       </div>
 
-      <div id="work-3" class="work-list">
+      <div id="work-3" class="work-list" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <div class="work-img3">
           <h3>에이롭사이트 리뉴얼</h3>
   <!-- Swiper -->
@@ -333,7 +341,9 @@
           </div>
       </div>
 
-      <div id="work-4" class="work-list">
+      <div id="work-4" class="work-list" data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <div class="work-img4">
           <h3>에이롭사이트 리뉴얼</h3>
   <!-- Swiper -->
@@ -428,5 +438,8 @@
     </section>
   
     <script src="./js/swiper.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
