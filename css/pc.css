@@ -641,3 +641,42 @@ width: 350px;
 .swiper-pagination{
     bottom: 50px !important;
 }
+#contact{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#contact h5{
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117px;
+    color: #0B004E;
+    margin-top: 215px;
+    margin-left: 95px;
+}
+#contact img{
+    background: transparent;
+    position: relative;
+    top: -300px;
+}
+#contact .adress{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 36px;
+    position: relative;
+    top: -550px;
+    left: 400px;
+    color: #fff;
+}
+#contact .adress span{
+    font-size: 24px;
+}
+#contact a{
+    color: #fff;
+    position: relative;
+    left: 1270px;
+    top: -580px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
