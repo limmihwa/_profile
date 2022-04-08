@@ -126,15 +126,17 @@ a{
     flex-direction: column;
     align-items: flex-end;
     padding-top: 350px;
+    background-color: #F8FBFF;
 }
 #title h1{
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 96px;
+    font-family: 'Fredericka the Great', cursive;    font-size: 96px;
     line-height: 105px;
     margin-bottom: 50px;
+    color: #C7B8F8;
+    font-weight: normal;
 }
 
-#title h3{
+/* #title h3{
     font-family: 'Tourney', cursive;    
     font-size: 70px;
     font-weight: 500;
@@ -142,34 +144,21 @@ a{
     margin-right: 100px;
     margin-bottom: 50px;
     color: #C7B8F8;
-}
+} */
 #title p{
     font-family: 'Noto Sans KR';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
-width: 350px;
-}
-#title p> span{
-    font-size: 34px;
-    color: #0B004E;
 }
 
-#main-img{
-    width: 1000px;
-    height: 814px;
+/* #ani{
     position: relative;
-    left: -550px;
-    top: -650px;
-    z-index: -50;
-}
-#ani{
-    position: relative;
-    top: -680px;
-    left: 40%;
+    top: -870px;
+    left: 62%;
 }
 #ani img{
-    width: 50px;
+    width: 40px;
     animation: move 10s linear infinite; 
 }
 @keyframes move{ 
@@ -185,7 +174,7 @@ width: 350px;
     100%{
         transform:rotate(360deg)
     } 
-}
+} */
 .scroll-downs {
     position: fixed;
     bottom: 20px;
@@ -230,7 +219,9 @@ width: 350px;
     margin-top: 25px;
 }
 .photo{
-    margin-top: 20px;
+    position: relative;
+    top: -300px;
+    left: 650px;
 }
 #about h1{
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -248,6 +239,8 @@ width: 350px;
 }
 .profild-text{
     margin-top: -280px;
+    position: relative;
+    left: -200px;
 }
 .profile{
     margin: 0 auto;
@@ -420,42 +413,78 @@ width: 350px;
 #work-list{
     margin-top: 50px;
 }
+.little-h{
+    font-style: 36px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}.little-h2{
+    font-style: 36px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: right;
+}
 #work h1{
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 36px;
     text-align: center;
 }
 #work-1{
-    display: flex
+    display: flex;
+    height: 600px;
 }
 .work-img1{
     width: 720px;
-    height: 400px;
     background-color: #75BDB8;
 }
 
 .work-img1 h3{
     font-family: 'Noto Sans KR';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
+    color: #fff;
     padding-top: 14px;
     margin-left: 14px;
 }
-.work-img1 a{
+.page{
     width: 150px;
-    padding: 5px 8px;
+    padding: 8px 15px;
     height: 30px;
     background-color: #fff;
     color: #666;
     font-size: 14px;
     border-radius: 20px;
     position: relative;
-    left: 580px;
+    left: 450px;
+    bottom: 20px;
+}
+.detail{
+    width: 150px;
+    padding: 8px 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #666;
+    font-size: 14px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+
+#work a:hover{
+    background-color: #0B004E;
+    color: #fff;
 }
 .work-text{
     display: flex;
     width: 720px;
-    height: 400px;
+    height: 600px;
+    padding-top: 100px;
     background-color: FFFBF1;
 }
 .over{
@@ -463,20 +492,25 @@ width: 350px;
     margin-top: 20px;
 }
 .over h3{
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 32px;
     margin-left: 24px;
     margin-bottom: 5px;
 }
 .over p{
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 24px;
 }
 .over h4{
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 15px;
     margin-left: 24px;
+}
+.over h5{
+    margin-left: 24px;
+    font-size: 16px;
+    margin-top: 20px;
 }
 .work-info{
     margin-top: 1em;
@@ -487,11 +521,11 @@ width: 350px;
     margin-top: 20px;
 }
 .design h2{
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 32px;
 }
 .design h3{
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
 }
 .design h4{
@@ -521,88 +555,63 @@ width: 350px;
 }
 .work-img2{
     width: 720px;
-    height: 400px;
+    height: 600px;
     background-color: #D3CBEC;
 }
 .work-img2 h3{
     font-family: 'Noto Sans KR';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
+    color: #fff;
     padding-top: 14px;
     margin-left: 14px;
 }
-.work-img2 a{
-    width: 150px;
-    padding: 5px 8px;
-    height: 30px;
-    background-color: #fff;
-    color: #666;
-    font-size: 14px;
-    border-radius: 20px;
-    position: relative;
-    left: 580px;
-}
-.work-list:nth-child(2n){
+.work-list:nth-child(2){
     flex-direction: row-reverse;
 }
+.work-list:nth-child(5){
+    flex-direction: row-reverse;
+}
+
 #work-3{
     display: flex
 }
 .work-img3{
     width: 720px;
-    height: 400px;
+    height: 600px;
     background-color: #BDD6ED;
 }
 .work-img3 h3{
     font-family: 'Noto Sans KR';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
     padding-top: 14px;
     margin-left: 14px;
-}
-.work-img3 a{
-    width: 150px;
-    padding: 5px 8px;
-    height: 30px;
-    background-color: #fff;
-    color: #666;
-    font-size: 14px;
-    border-radius: 20px;
-    position: relative;
-    left: 580px;
-}
+    color: #fff;
 
+}
 #work-4{
     display: flex
 }
 .work-img4{
     width: 720px;
-    height: 400px;
+    height: 600px;
     background-color: #EDCCE2;
 }
 .work-img4 h3{
     font-family: 'Noto Sans KR';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
     padding-top: 14px;
     margin-left: 14px;
-}
-.work-img4 a{
-    width: 150px;
-    padding: 5px 8px;
-    height: 30px;
-    background-color: #fff;
-    color: #666;
-    font-size: 14px;
-    border-radius: 20px;
-    position: relative;
-    left: 580px;
+    color: #fff;
+
 }
 
 /*스와이퍼*/
 .swiper {
     width: 100%;
-    height: 300px;
+    height: 500px;
   }
 
   .swiper-slide {
@@ -625,6 +634,7 @@ width: 350px;
 
   .swiper-slide img {
     display: block;
+    height: 70%;
     object-fit: cover;
   }
   .swiper-pagination-bullet{
@@ -644,7 +654,7 @@ width: 350px;
 #contact{
     width: 1440px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 500px;
 }
 #contact h5{
     font-family: 'Montserrat', sans-serif;    

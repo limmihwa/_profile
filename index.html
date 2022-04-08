@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="./favicon.png"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat+Subrayada&family=Montserrat:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&family=Tourney&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 768px">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat+Subrayada&family=Montserrat:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 768px">
     <link rel="stylesheet" href="./css/mobile.css"  media="screen and (max-width: 767px)">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -47,24 +49,22 @@
       </header>
 
     <section id="title">
-        <h1 class="do_type" title="ALL WAYS">title</h1>
-          <!-- Plug-in Here(플러그인) -->
-  <script src="./js/sub.js"></script>
+        <h1>ALL WAYS</h1>
+        <!-- <h3>keep develop</h3> -->
+            <p class="do_type" title="언제나 성실하게 노력하며,*계속하여 성장해나가는 **웹퍼블리셔 '임미화'">title</p>
+            <!-- Plug-in Here(플러그인) -->
+    <script src="./js/sub.js"></script>
+    
+    <!-- Your Script(작성 스크립트) -->
+    <script>
+      // run auto type
+      do_type.type('.do_type'); 
+    </script>
   
-  <!-- Your Script(작성 스크립트) -->
-  <script>
-    // run auto type
-    do_type.type('.do_type');  //이거 나중에 풀기 !!!
-  </script>
-        <h3>keep develop</h3>
-        <p>언제나  성실하게 노력하며,
-            계속하여 성장해나가는 <br>
-            웹 퍼블리셔     <span>‘임미화’</span> </p>
-        <img id="main-img" src="./img/일러스트 1.png" alt="일러스트">
     </section>
-    <div id="ani">
+    <!-- <div id="ani">
         <img src="./img/ani.png" alt="ani">
-    </div>
+    </div> -->
     <!--마우스 스크롤-->
     <div class="scroll-downs">
         <div class="mousey">
@@ -75,11 +75,11 @@
     <section id="about">
         <h1>ABOUT ME</h1>
         <p>안녕하세요 . <br>
-            항상 노력하는 <br>
+            밝은 에너지의 <br>
             웹퍼블리셔 <br>
             <span>임미화</span> 입니다</p>
             <div class="bar-1"></div>
-            <img class="photo" src="./img/사진.jpg" alt="증명사진">
+            <img class="photo" src="./img/일러스트 2.png" alt="일러스트">
             <div class="profild-text">
             <div class="profile">
                 <h3>Profile</h3>
@@ -152,36 +152,44 @@
     <!--work-->
     <section id="work">
       <h1>WORK</h1>
-      <div id="work-list" class="work-list">
-        <div id="work-1" data-aos="fade-right"
+      <h2 class="little-h">PC/Mobile page</h2>
+      <div id="work-list">
+        <div id="work-1"  class="work-list" data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
         <div class="work-img1">
-          <h3>에이롭사이트 리뉴얼</h3>
+          <h3>그라찌에사이트 리뉴얼</h3>
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="./img/Subtract.png" alt="1">
+        <img src="./img/그라찌에/pc 1.png" alt="1">
       </div>
       <div class="swiper-slide">
-        <img src="./img/Subtract.png" alt="1">
+        <img src="./img/그라찌에/pc-main.png" alt="1">
       </div>
+      <div class="swiper-slide">
+        <img src="./img/그라찌에/m-main.png" alt="1">
+      </div>
+
     </div>
     <div class="swiper-pagination"></div>
   </div>      
-          <a href="#">사이트바로가기</a>
+          <a class="page" href=" https://limmihwa.github.io/new-Grazie/">home page</a>
+          <a href="#" class="detail">Detail</a>
         </div>
         <div class="work-text">
           <div class="over">
             <h3>over view</h3>
-            <p>브랜드가 추구하는 분위기로 재구성</p>
+            <p>관리가 안되어 올드한 사이트 리뉴얼</p>
             <h4>About the work</h4>
-            <p>제작기간 : 디자인 3일 , 퍼블리싱2일<br>
+            <p>제작기간 : 디자인 3일 , 퍼블리싱5일<br>
               사용기술 : 피그마,HTML,CSS,Javascript
               </p>
               <p class="work-info">
-                작품설명: 벤치마킹과 추구하는 분위기의 <br> UI/UX 디자인 구현 </p>
+                작품설명: 벤티마킹을 통해 요즘 <br> 트렌드의 카페 사이트의 느낌으로 디자인 </p>
+                <h5>기여도 :팀작업(3명작업 - 45%)</h5>
+
           </div>
 
 
@@ -201,9 +209,9 @@
               </div>
               <h3>˙Color</h3>
                 <div class="color">
-                  <img src="./img/Group 6.png" alt="color1">
-                  <img src="./img/Group 7.png" alt="color2">
-                  <img src="./img/Group 8.png" alt="color3">
+                  <img src="./img/그라찌에/color1.png" alt="color1">
+                  <img src="./img/그라찌에/color2.png" alt="color2">
+                  <img src="./img/그라찌에/color3.png" alt="color3">
 
           </div>
 
@@ -218,31 +226,39 @@
       data-aos-offset="300"
       data-aos-easing="ease-in-sine">
         <div class="work-img2">
-          <h3>에이롭사이트 리뉴얼</h3>
+          <h3>풀무원사이트 리뉴얼</h3>
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="./img/Subtract.png" alt="1">
+        <img src="./img/풀무원/풀무원.png" alt="1">
       </div>
       <div class="swiper-slide">
-        <img src="./img/Subtract.png" alt="1">
+        <img src="./img/풀무원/main 1.png" alt="2">
       </div>
+      <div class="swiper-slide">
+        <img src="./img/풀무원/mian 1.jpg" alt="3">
+      </div>
+
     </div>
     <div class="swiper-pagination"></div>
   </div>      
-          <a href="#">사이트바로가기</a>
+          <a class="page" href="https://limmihwa.github.io/pulmuone-2022-03/">home page</a>
+          <a href="#" class="detail">Detail</a>
+
         </div>
         <div class="work-text">
           <div class="over">
             <h3>over view</h3>
-            <p>브랜드가 추구하는 분위기로 재구성</p>
+            <p>요즘에 맞는 깔끔한 디자인으로 <br>사이트 재구성</p>
             <h4>About the work</h4>
-            <p>제작기간 : 디자인 3일 , 퍼블리싱2일<br>
-              사용기술 : 피그마,HTML,CSS,Javascript
+            <p>제작기간 : 디자인 2일 , 퍼블리싱3일<br>
+              사용기술 : 피그마,HTML,CSS,Javascript,swiper
               </p>
               <p class="work-info">
-                작품설명: 벤치마킹과 추구하는 분위기의 <br> UI/UX 디자인 구현 </p>
+                작품설명: 자연친화적인 브랜드 이미지를  <br> 느낄수 있도록 최대한 살려 심플하게 디자인 </p>
+                <h5>기여도 :개인작업 100%</h5>
+
           </div>
 
 
@@ -262,9 +278,9 @@
               </div>
               <h3>˙Color</h3>
                 <div class="color">
-                  <img src="./img/Group 6.png" alt="color1">
-                  <img src="./img/Group 7.png" alt="color2">
-                  <img src="./img/Group 8.png" alt="color3">
+                  <img src="./img/풀무원/color1.png" alt="color1">
+                  <img src="./img/풀무원/color2.png" alt="color2">
+                  <img src="./img/풀무원/color3.png" alt="color3">
 
           </div>
 
@@ -275,36 +291,41 @@
 
           </div>
       </div>
-
+      <h2 class="little-h2">Mobile app</h2>
       <div id="work-3" class="work-list" data-aos="fade-right"
       data-aos-offset="300"
       data-aos-easing="ease-in-sine">
         <div class="work-img3">
-          <h3>에이롭사이트 리뉴얼</h3>
+          <h3>결혼 청첩장</h3>
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="./img/Subtract.png" alt="1">
+        <img src="./img/웨딩/m-main 1.png" alt="1">
       </div>
       <div class="swiper-slide">
-        <img src="./img/Subtract.png" alt="1">
+        <img src="./img/웨딩/page.png" alt="1">
       </div>
     </div>
     <div class="swiper-pagination"></div>
   </div>      
-          <a href="#">사이트바로가기</a>
+          <a href=" https://limmihwa.github.io/wedding-mobile/" class="page">mobile app</a>
+          <a href="./wedding.html" class="detail" 
+          onclick="window.open(this.href, '_blank', 'width=1000px,height=7500px,toolbars=no,scrollbars=yes'); return false;"
+>Detail</a>
+
         </div>
         <div class="work-text">
           <div class="over">
             <h3>over view</h3>
-            <p>브랜드가 추구하는 분위기로 재구성</p>
+            <p>요즘 많이 사용하는 모바일 청첩장<br>
+            디자인하여 구현</p>
             <h4>About the work</h4>
-            <p>제작기간 : 디자인 3일 , 퍼블리싱2일<br>
-              사용기술 : 피그마,HTML,CSS,Javascript
+            <p>제작기간 : 디자인 2일 , 퍼블리싱2일<br>
+              사용기술 : 피그마,HTML,CSS,Javascript,swaiper
               </p>
               <p class="work-info">
-                작품설명: 벤치마킹과 추구하는 분위기의 <br> UI/UX 디자인 구현 </p>
+                작품설명: 우아하고 차분한 분위기의 웨딩을<br> 가정하여 전체적인 색감과 디자인에 신경 </p>
           </div>
 
 
@@ -312,21 +333,21 @@
           <div class="design">
             <h2>Design  Concept</h2>
             <h3>˙Typography</h3>
-            <h4>Noto Sans KR</h4>
+            <h4>Noto Sans KR / Yeon Sung</h4>
             <div class="sans">
               <p>가 <br>
                 Regular</p>
               <p>가 <br>
                 Medium</p>
 
-              <p>가 <br>
-                Bold</p>
+              <p style="font-family: 'Yeon Sung', cursive; font-size: 19px;">가 <br>
+                Regular</p>
               </div>
               <h3>˙Color</h3>
                 <div class="color">
-                  <img src="./img/Group 6.png" alt="color1">
-                  <img src="./img/Group 7.png" alt="color2">
-                  <img src="./img/Group 8.png" alt="color3">
+                  <img src="./img/웨딩/color1.png" alt="color1">
+                  <img src="./img/웨딩/color2.png" alt="color2">
+                  <img src="./img/웨딩/color3.png" alt="color3">
 
           </div>
 
@@ -355,8 +376,10 @@
     </div>
     <div class="swiper-pagination"></div>
   </div>      
-          <a href="#">사이트바로가기</a>
-        </div>
+  <a href="#" class="page">mobile app</a>
+  <a href="#" class="detail">Detail</a>
+
+</div>
         <div class="work-text">
           <div class="over">
             <h3>over view</h3>
