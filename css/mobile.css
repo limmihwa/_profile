@@ -90,6 +90,7 @@
         flex-direction: column;
         align-items: flex-end;
         padding-top: 80px;
+        background-color: #F8FBFF;
     }
     #title h1{
         font-family: 'Julius Sans One', sans-serif;
@@ -187,7 +188,6 @@
     #about{
         margin: 0 auto;
         width: 100%;
-        background-color: #F8FBFF;
     }
     .bar-1{
         width: 150px;
@@ -224,7 +224,7 @@
     .profile{
         margin: 0 auto;
         position: relative;
-        left: 50px;
+        left: 20px;
     }
     .bar{
         width: 80px;
@@ -279,7 +279,7 @@
         flex-direction: column;
         margin: 0 auto;
         position: relative;
-        left: 50px;
+        left: 20px;
     }
     
     .experience>h3{
