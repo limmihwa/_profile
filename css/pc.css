@@ -38,6 +38,7 @@ a{
 
 #gnb > ul {
     display: flex;
+
 }
 
 #gnb > ul > li >a {
@@ -46,7 +47,7 @@ a{
     line-height: 45px;
     display: inline-block;
     text-align: center;
-    font-family: 'Noto Sans KR';
+    font-family: 'Montserrat';
 }
 #gnb > ul > li:nth-child(1){
     animation: nav  0.7s linear forwards;
@@ -129,7 +130,8 @@ a{
     background-color: #F8FBFF;
 }
 #title h1{
-    font-family: 'Fredericka the Great', cursive;    font-size: 96px;
+    font-family: 'Fredericka the Great', cursive;       
+    font-size: 96px;
     line-height: 105px;
     margin-bottom: 50px;
     color: #C7B8F8;
@@ -469,7 +471,7 @@ font-size: 32px;
     height: 30px;
     background-color: #fff;
     color: #666;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 20px;
     position: relative;
     left: 50px;

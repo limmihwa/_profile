@@ -28,8 +28,8 @@
     <header id="main-header">
         <div class="container">
           <h1>
-            <a href="./">
-              <img src="" alt="개인로고">
+            <a href="#">
+              개인로고
             </a>
           </h1>
     
@@ -66,7 +66,7 @@
         <img src="./img/ani.png" alt="ani">
     </div> -->
     <!--마우스 스크롤-->
-    <div class="scroll-downs">
+    <div class="scroll-downs" id="pc-only">
         <div class="mousey">
           <div class="scroller"></div>
         </div>
@@ -168,7 +168,7 @@
       <div class="swiper-slide">
         <img src="./img/그라찌에/pc-main.png" alt="1">
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide" id="pc-only">
         <img src="./img/그라찌에/m-main.png" alt="1">
       </div>
 
@@ -236,7 +236,7 @@
       <div class="swiper-slide">
         <img src="./img/풀무원/main 1.png" alt="2">
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide" id="pc-only">
         <img src="./img/풀무원/mian 1.jpg" alt="3">
       </div>
 
@@ -253,7 +253,7 @@
             <p>요즘에 맞는 깔끔한 디자인으로 <br>사이트 재구성</p>
             <h4>About the work</h4>
             <p>제작기간 : 디자인 2일 , 퍼블리싱3일<br>
-              사용기술 : 피그마,HTML,CSS,Javascript,swiper
+              사용기술 : 피그마,HTML,CSS,Javascript
               </p>
               <p class="work-info">
                 작품설명: 자연친화적인 브랜드 이미지를  <br> 느낄수 있도록 최대한 살려 심플하게 디자인 </p>
@@ -300,12 +300,16 @@
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
+      <div class="swiper-slide" id="pc-only">
         <img src="./img/웨딩/m-main 1.png" alt="1">
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide" id="pc-only">
         <img src="./img/웨딩/page.png" alt="1">
       </div>
+      <div class="swiper-slide">
+        <img src="./img/웨딩/m-main1.jpg" alt="1">
+      </div>
+
     </div>
     <div class="swiper-pagination"></div>
   </div>      
@@ -322,7 +326,7 @@
             디자인하여 구현</p>
             <h4>About the work</h4>
             <p>제작기간 : 디자인 2일 , 퍼블리싱2일<br>
-              사용기술 : 피그마,HTML,CSS,Javascript,swaiper
+              사용기술 : 피그마,HTML,CSS,Javascript
               </p>
               <p class="work-info">
                 작품설명: 우아하고 차분한 분위기의 웨딩을<br> 가정하여 전체적인 색감과 디자인에 신경 </p>
@@ -454,7 +458,7 @@
           <p>phone: 010-9009-9764</p>
           <p><span>연락 기다리겠습니다 :)</span></p>
         </div>
-        <a class="pc-only" href="./임미화 - 이력서.hwp">이력서 다운받기</a>
+        <a id="pc-only" href="./임미화 - 이력서.hwp">이력서 다운받기</a>
     </section>
   
     <script src="./js/swiper.js"></script>
