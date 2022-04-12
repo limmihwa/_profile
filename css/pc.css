@@ -692,3 +692,17 @@ font-size: 32px;
     border: 1px solid #fff;
     padding: 5px;
 }
+.adress p>span{
+    animation: nav  2s linear  infinite;
+}
+@keyframes nav {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}

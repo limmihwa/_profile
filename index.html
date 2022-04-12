@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width: 768px">
     <link rel="stylesheet" href="./css/mobile.css"  media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="./css/tap.css"  media="screen and (min-width:768px) and (max-width:1199px)">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
@@ -168,7 +169,7 @@
       <div class="swiper-slide">
         <img src="./img/그라찌에/pc-main.png" alt="1">
       </div>
-      <div class="swiper-slide" id="pc-only">
+      <div class="swiper-slide pc-only">
         <img src="./img/그라찌에/m-main.png" alt="1">
       </div>
 
@@ -191,7 +192,7 @@
               </p>
               <p class="work-info">
                 작품설명: 벤티마킹을 통해 요즘 <br> 트렌드의 카페 사이트의 느낌으로 디자인 </p>
-                <h5>기여도 :팀작업(3명작업 - 45%)</h5>
+                <h5>기여도 :팀작업(3명작업 - 40%)</h5>
 
           </div>
 
@@ -239,7 +240,7 @@
       <div class="swiper-slide">
         <img src="./img/풀무원/main 1.png" alt="2">
       </div>
-      <div class="swiper-slide" id="pc-only">
+      <div class="swiper-slide pc-only">
         <img src="./img/풀무원/mian 1.jpg" alt="3">
       </div>
 
@@ -247,7 +248,9 @@
     <div class="swiper-pagination"></div>
   </div>      
           <a class="page" href="https://limmihwa.github.io/pulmuone-2022-03/">home page</a>
-          <a href="#" class="detail">Detail</a>
+          <a href="./pulmuwon.html" class="detail" 
+          onclick="window.open(this.href, '_blank', 'width=1000px,height=7500px,toolbars=no,scrollbars=yes'); return false;"
+>Detail</a>
 
         </div>
         <div class="work-text">
@@ -303,10 +306,10 @@
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" id="pc-only">
+      <div class="swiper-slide pc-only">
         <img src="./img/웨딩/m-main 1.png" alt="1">
       </div>
-      <div class="swiper-slide" id="pc-only">
+      <div class="swiper-slide pc-only">
         <img src="./img/웨딩/page.png" alt="1">
       </div>
       <div class="swiper-slide">
@@ -439,20 +442,26 @@
 
 
 
+    </section>
 
 
 
 
+    <section id="gallrey">
 
 
-
+<p style="margin: 50px;">여기 부분에는 포토샵 /일러스트 작품 링크로 연동 </p>
 
 
     </section>
 
 
+
+
+
+<!--콘택트-->
     <section id="contact">
-      <h5 data-aos="zoom-in-up">THANK YOU <br>
+      <h5>THANK YOU <br>
         FOR WATCH</h5>
         <img src="./img/contact.png" alt="bg-img">
         <div class="adress">
@@ -461,7 +470,7 @@
           <p>phone: 010-9009-9764</p>
           <p><span>연락 기다리겠습니다 :)</span></p>
         </div>
-        <a id="pc-only" href="./임미화 - 이력서.hwp">이력서 다운받기</a>
+        <a class="pc-only" href="./임미화 - 이력서.hwp">이력서 다운받기</a>
     </section>
   
     <script src="./js/swiper.js"></script>
