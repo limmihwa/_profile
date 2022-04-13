@@ -40,6 +40,12 @@ a{
     overflow: hidden;
     position: fixed;
 }
+.logo{
+    color: #0B004E;
+    font-family: "Hillshort";
+    font-size: 38px;
+    font-weight: normal;
+}
 
 #gnb > ul {
     display: flex;

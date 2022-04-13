@@ -40,6 +40,14 @@
         overflow: hidden;
         position: fixed;
     }
+    .logo{
+        color: #0B004E;
+        font-family: "Hillshort";
+        font-size: 38px;
+        font-weight: normal;
+        margin-left: 20px;
+    }
+
     
     #gnb > ul {
         display: flex;
